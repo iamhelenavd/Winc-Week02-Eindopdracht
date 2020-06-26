@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #f1f1f1;
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  color: #000, HSBA (0, 0, 36, 100);
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 80px;
+  color: #000, HSBA (0, 0, 20, 100);
+}
+
+img {
+  width: 180px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.menu li {
+  text-decoration: none;
+  line-height: 60px;
+  margin: 10px;
+}
+
+.menu li label {
+  padding: 5px;
+}
+
+.filter-btn ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 10px;
+}
+
+#content {
+  display: grid;
+  padding: 1rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
